@@ -1,0 +1,12 @@
+# Secrets, local data and the Python AI backend never go to Vercel
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.db-*
+ai_backend/
+tests/
+evals/
+.next/
+node_modules/
